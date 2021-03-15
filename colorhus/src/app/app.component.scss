@@ -1,0 +1,26 @@
+.toolbaroverride {
+  position: fixed;
+}
+
+mat-toolbar {
+  z-index: 999;
+}
+
+.menu {
+  text-decoration: none;
+}
+
+button {
+  outline: none;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.toolbarFont {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  overflow-wrap: break-word;
+}
