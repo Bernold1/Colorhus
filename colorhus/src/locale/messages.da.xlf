@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="7096020198649437537" datatype="html">
+        <source> Color Hus <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;
+      "/> Malermester </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing-page/landing-page/landing-page.component.html</context>
+          <context context-type="linenumber">4,6</context>
+        </context-group>
+        <note priority="1" from="description">name of the company</note>
+        <note priority="1" from="meaning">company name</note>
+      </trans-unit>
+      <trans-unit id="6813996530715318767" datatype="html">
+        <source>About Tom</source>
+        <target>Om Tom</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing-page/landing-page/landing-page.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <note priority="1" from="description">intro heading</note>
+        <note priority="1" from="meaning">introduction card</note>
+      </trans-unit>
+      <trans-unit id="2575403823725459062" datatype="html">
+        <source>Meet the painter</source>
+        <target>Møde Maleren</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing-page/landing-page/landing-page.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <note priority="1" from="description">intro subtitle</note>
+        <note priority="1" from="meaning">introduction card subtitle</note>
+      </trans-unit>
+      <trans-unit id="5263592133010749131" datatype="html">
+        <source> Tom has been painting homes and buildings since 1988. Experience, service, care and top quality craftsmanship are the keys to my years of longevity in this buisness </source>
+        <target>Tom har malet forskellige hjem og bygniner siden 1988. Erfaring, service, pleje og håndværk af det højeste kvalitet er nøglen til mange års levetid i erhveret </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing-page/landing-page/landing-page.component.html</context>
+          <context context-type="linenumber">40,43</context>
+        </context-group>
+        <note priority="1" from="description">a description of Tom</note>
+        <note priority="1" from="meaning">introduction description</note>
+      </trans-unit>
+      <trans-unit id="7426282774860526264" datatype="html">
+        <source>Professional painter based in Silkeborg</source>
+        <target>Professionel Malermester i Silkeborg</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing-page/landing-page/landing-page.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+        <note priority="1" from="description">about the company header</note>
+        <note priority="1" from="meaning">professional painter</note>
+      </trans-unit>
+      <trans-unit id="4535172322447955651" datatype="html">
+        <source>Tom can handle it all.</source>
+        <target>Tom kan klare det hele!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing-page/landing-page/landing-page.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+        <note priority="1" from="description">company subtitle</note>
+        <note priority="1" from="meaning">motivation subtitle</note>
+      </trans-unit>
+      <trans-unit id="4005084475306280222" datatype="html">
+        <source> Color Hus Malermester uses premium paint products to handle all of your needs. Call Tom for a non-binding offer on your home. With many years of experience, Color Hus gives excellent advice on coloring and beautifying your home. Call 60 65 88 87. </source>
+        <target> Color Hus Malermester bruger kun de bedste male produkter til at håndtere alle dine behov. Ring til Tom for en uforpligtende tilbud på dit hjems projekt. Grundet de mange års erfaringer giver Color Hus fremragende råd om farvning og forskønning af dit hjem. Ring på 60 65 88 87 for at få et tilbud i dag.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing-page/landing-page/landing-page.component.html</context>
+          <context context-type="linenumber">67,71</context>
+        </context-group>
+        <note priority="1" from="description">a description of what the company does</note>
+        <note priority="1" from="meaning">motivation description</note>
+      </trans-unit>
+      <trans-unit id="5029235899988723100" datatype="html">
+        <source>Free bidding and color consultation</source>
+        <target>Gratis tilbud og farve konsultation</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing-page/landing-page/landing-page.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+        <note priority="1" from="description">title of bidding section</note>
+        <note priority="1" from="meaning">bidding title</note>
+      </trans-unit>
+      <trans-unit id="3892056428088056640" datatype="html">
+        <source>Get a bid today.</source>
+        <target>Få et tilbud i dag.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing-page/landing-page/landing-page.component.html</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+        <note priority="1" from="description">subtitle of bidding section</note>
+        <note priority="1" from="meaning">bidding subtitle</note>
+      </trans-unit>
+      <trans-unit id="3730133968160521000" datatype="html">
+        <source> Years of education, completed paint jobs, plus keeping the overhead low saving you big. Light weight equipment, efficiency, calculated. </source>
+        <target>Med mange års uddannelse og erfaring, holder Tom omkostningerne lave som i sidste ende sparer dig mange penge. Letvægtsudstyr, effektivitet, beregnet med i prisen.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing-page/landing-page/landing-page.component.html</context>
+          <context context-type="linenumber">92,94</context>
+        </context-group>
+        <note priority="1" from="description">description of bidding section</note>
+        <note priority="1" from="meaning">bidding description</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

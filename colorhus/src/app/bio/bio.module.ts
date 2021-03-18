@@ -2,10 +2,11 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { BioRoutingModule } from './bio-routing.module';
+import { BioComponent } from './bio/bio.component';
 
 
 @NgModule({
-  declarations: [],
+  declarations: [BioComponent],
   imports: [
     CommonModule,
     BioRoutingModule

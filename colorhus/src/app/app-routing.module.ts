@@ -10,6 +10,20 @@ const routes: Routes = [
         (m) => m.LandingPageModule
       ),
   },
+  {
+    path: 'bio',
+    loadChildren: () => import('./bio/bio.module').then((m) => m.BioModule),
+  },
+  {
+    path: 'gallery',
+    loadChildren: () =>
+      import('./gallery/gallery.module').then((m) => m.GalleryModule),
+  },
+  {
+    path: 'contact',
+    loadChildren: () =>
+      import('./contact/contact.module').then((m) => m.ContactModule),
+  },
 ];
 
 @NgModule({
