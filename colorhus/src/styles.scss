@@ -47,9 +47,10 @@ body {
 /**
    * Render the `main` element consistently in IE.
    */
-
+//Animations
 main {
   display: block;
+  position: relative;
 }
 
 /**
@@ -377,4 +378,8 @@ body {
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+mat-icon {
+  vertical-align: bottom;
 }

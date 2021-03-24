@@ -5,6 +5,7 @@ import { MatCardModule } from '@angular/material/card';
 
 import { LandingPageRoutingModule } from './landing-page-routing.module';
 import { LandingPageComponent } from './landing-page/landing-page.component';
+import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   declarations: [LandingPageComponent],
@@ -13,6 +14,7 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
     LandingPageRoutingModule,
     MatIconModule,
     MatCardModule,
+    SharedModule,
   ],
 })
 export class LandingPageModule {}

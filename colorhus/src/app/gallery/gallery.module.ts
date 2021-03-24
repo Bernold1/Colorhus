@@ -6,6 +6,7 @@ import { GalleryComponent } from './gallery/gallery.component';
 
 import { NgxMasonryModule } from 'ngx-masonry';
 import { MatButtonModule } from '@angular/material/button';
+import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   declarations: [GalleryComponent],
@@ -14,6 +15,7 @@ import { MatButtonModule } from '@angular/material/button';
     GalleryRoutingModule,
     NgxMasonryModule,
     MatButtonModule,
+    SharedModule,
   ],
 })
 export class GalleryModule {}

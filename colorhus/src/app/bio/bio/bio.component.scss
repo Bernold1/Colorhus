@@ -1,4 +1,91 @@
-* {
-  background-image: url("../../../assets/images/roller.jpg");
-  background-repeat: repeat;
+.heading {
+  text-align: center;
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.top-container {
+  padding: 100px 150px 20px 150px;
+}
+.bottom-container {
+  padding: 100px 150px 20px 150px;
+}
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item {
+  padding: 20px;
+  margin: 7px;
+  font-family: "Montserrat", sans-serif;
+}
+
+hr {
+  width: 100%;
+}
+
+.card {
+  max-width: 400px;
+}
+
+.text-image {
+  max-width: 400px;
+  border-radius: 4px;
+}
+
+mat-card {
+  transition: none !important;
+  box-shadow: none !important;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner img {
+  max-width: 40%;
+  height: auto;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: larger;
+}
+
+@media only screen and (min-width: 1153px) {
+  .top-container {
+    padding: 100px 150px 20px 150px;
+  }
+  .bottom-container {
+    padding: 100px 150px 20px 150px;
+  }
+  .inner-container {
+    flex-direction: row;
+  }
+
+  .about-tom {
+    min-height: 320px;
+  }
+  .work-experience {
+    min-height: 557px;
+  }
 }
