@@ -1,8 +1,11 @@
 <div class="parent-container">
-  <h1 class="heading">Kontakt Information</h1>
+  <h1 class="heading">{{ "contact-title" | transloco }}</h1>
   <hr />
   <br />
-  <div class="item"><mat-icon>phone</mat-icon> Telefon: +45 60 65 88 87</div>
+  <div class="item">
+    <mat-icon>phone</mat-icon> {{ "contact-phone" | transloco }} : +45 60 65 88
+    87
+  </div>
   <div class="item">
     <mat-icon>email</mat-icon>
     <a class="contact" [href]="emailstring" target="_top">
@@ -10,8 +13,8 @@
     >
   </div>
   <div class="item">
-    <mat-icon>house</mat-icon> Addresse: <br />
-    Bakkevænget 62, 8600 Silkeborg
+    <mat-icon>house</mat-icon> {{ "contact-address" | transloco }} : Bakkevænget
+    62, 8600 Silkeborg
   </div>
 </div>
 

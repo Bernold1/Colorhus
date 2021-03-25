@@ -17,7 +17,6 @@ export class GalleryComponent implements OnInit {
   limit = 15;
 
   dummyPictures: [boolean, string][] = [
-    [false, '../../../assets/images/gallery/img1.jpg'],
     [false, '../../../assets/images/gallery/img2.jpg'],
     [false, '../../../assets/images/gallery/img3.jpg'],
     [false, '../../../assets/images/gallery/img4.jpg'],

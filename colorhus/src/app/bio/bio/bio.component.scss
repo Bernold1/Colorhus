@@ -2,7 +2,7 @@
   text-align: center;
   font-family: "Julius Sans One", sans-serif;
   font-weight: 600;
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .main-container {
@@ -40,7 +40,7 @@ hr {
 }
 
 .text-image {
-  max-width: 400px;
+  max-width: 280px;
   border-radius: 4px;
 }
 
@@ -61,6 +61,10 @@ mat-card {
   padding-bottom: 10px;
 }
 
+.translated-paragraph {
+  white-space: pre-wrap;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -69,6 +73,15 @@ a {
 p {
   font-family: "Montserrat", sans-serif;
   font-size: larger;
+}
+
+@media only screen and (min-width: 1000px) {
+  .heading {
+    font-size: 50px;
+  }
+  .item {
+    font-size: larger;
+  }
 }
 
 @media only screen and (min-width: 1153px) {

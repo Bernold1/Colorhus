@@ -7,6 +7,7 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { NgxMasonryModule } from 'ngx-masonry';
 import { MatButtonModule } from '@angular/material/button';
 import { SharedModule } from '../shared/shared.module';
+import { TranslocoModule } from '@ngneat/transloco';
 
 @NgModule({
   declarations: [GalleryComponent],
@@ -16,6 +17,7 @@ import { SharedModule } from '../shared/shared.module';
     NgxMasonryModule,
     MatButtonModule,
     SharedModule,
+    TranslocoModule,
   ],
 })
 export class GalleryModule {}

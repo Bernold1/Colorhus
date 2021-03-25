@@ -1,6 +1,6 @@
 <div class="background-parallax">
   <div class="centered-header home-fonts">
-    <div i18n="company name|name of the company" class="company-name">
+    <div class="company-name">
       Color Hus <br />
       Malermester
     </div>
@@ -23,12 +23,8 @@
   <mat-card class="info-card info-font">
     <mat-card-header>
       <div mat-card-avatar class="header-image"></div>
-      <mat-card-title i18n="introduction card|intro heading"
-        >About Tom</mat-card-title
-      >
-      <mat-card-subtitle i18n="introduction card subtitle|intro subtitle"
-        >Meet the painter</mat-card-subtitle
-      >
+      <mat-card-title>{{ "card-title-1" | transloco }}</mat-card-title>
+      <mat-card-subtitle>{{ "card-subtitle-1" | transloco }}</mat-card-subtitle>
     </mat-card-header>
     <img
       mat-card-image
@@ -37,22 +33,16 @@
       class=""
     />
     <mat-card-content>
-      <p i18n="introduction description|a description of Tom">
-        Tom has been painting homes and buildings since 1988. Experience,
-        service, care and top quality craftsmanship are the keys to my years of
-        longevity in this buisness
+      <p>
+        {{ "card-desc-1" | transloco }}
       </p>
     </mat-card-content>
   </mat-card>
   <mat-card class="info-card info-font">
     <mat-card-header>
       <div mat-card-avatar class="header-image"></div>
-      <mat-card-title i18n="professional painter|about the company header"
-        >Professional painter based in Silkeborg</mat-card-title
-      >
-      <mat-card-subtitle i18n="motivation subtitle|company subtitle"
-        >Tom can handle it all.</mat-card-subtitle
-      >
+      <mat-card-title> {{ "card-title-2" | transloco }} </mat-card-title>
+      <mat-card-subtitle>{{ "card-subtitle-2" | transloco }}</mat-card-subtitle>
     </mat-card-header>
     <img
       mat-card-image
@@ -61,26 +51,16 @@
       style="padding-top: 40px"
     />
     <mat-card-content>
-      <p
-        i18n="motivation description|a description of what the company does"
-        style="padding-top: 30px"
-      >
-        Color Hus Malermester uses premium paint products to handle all of your
-        needs. Call Tom for a non-binding offer on your home. With many years of
-        experience, Color Hus gives excellent advice on coloring and beautifying
-        your home. Call 60 65 88 87.
+      <p style="padding-top: 30px">
+        {{ "card-desc-2" | transloco }}
       </p>
     </mat-card-content>
   </mat-card>
   <mat-card class="info-card info-font">
     <mat-card-header>
       <div mat-card-avatar class="header-image"></div>
-      <mat-card-title i18n="bidding title|title of bidding section"
-        >Free bidding and color consultation</mat-card-title
-      >
-      <mat-card-subtitle i18n="bidding subtitle|subtitle of bidding section"
-        >Get a bid today.</mat-card-subtitle
-      >
+      <mat-card-title>{{ "card-title-3" | transloco }}</mat-card-title>
+      <mat-card-subtitle>{{ "card-subtitle-3" | transloco }}</mat-card-subtitle>
     </mat-card-header>
     <img
       mat-card-image
@@ -89,23 +69,11 @@
       class="resized-img"
     />
     <mat-card-content>
-      <p i18n="bidding description|description of bidding section">
-        Years of education, completed paint jobs, plus keeping the overhead low
-        saving you big. Light weight equipment, efficiency, calculated.
+      <p>
+        {{ "card-desc-3" | transloco }}
       </p>
     </mat-card-content>
   </mat-card>
 </div>
 
 <app-contact-footer></app-contact-footer>
-<!-- <div class="column-flex-footer">
-  <div class="footer-contact">
-    <a href="tel:60658887"><mat-icon>phone</mat-icon> +45 60 65 88 87</a>
-  </div>
-  <div class="footer-contact">
-    <a [href]="emailstring" target="_top"
-      ><mat-icon class="vertical-align: bottom;">email</mat-icon>
-      tombernold@gmail.com</a
-    >
-  </div>
-</div> -->

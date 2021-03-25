@@ -8,13 +8,25 @@
   padding-top: 100px;
 }
 
+.heading {
+  font-size: 30px;
+}
+
 .header-font {
   font-family: "Julius Sans One", sans-serif;
   font-weight: 600;
-  font-size: 50px;
 }
 
 .mat-raised-button {
   font-family: "Montserrat", sans-serif;
   padding: 10px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .heading {
+    font-size: 50px;
+  }
+  .item {
+    font-size: larger;
+  }
 }

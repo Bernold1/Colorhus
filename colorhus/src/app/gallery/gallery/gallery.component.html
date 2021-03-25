@@ -1,6 +1,6 @@
 <div class="masonry-container top-placement">
   <div>
-    <h1 class="heading header-font">View our work</h1>
+    <h1 class="heading header-font">{{ "gallery-title" | transloco }}</h1>
     <hr />
     <br />
   </div>
@@ -31,10 +31,12 @@
     *ngIf="limit < 50"
     (click)="showMoreImages()"
   >
-    Show more images
+    {{ "gallery-button" | transloco }}
   </button>
   <br />
-  <h2 class="heading header-font" *ngIf="limit >= 50">No images left</h2>
+  <h2 class="heading header-font" *ngIf="limit >= 50">
+    {{ "gallery-end" | transloco }}
+  </h2>
   <br />
 </div>
 
