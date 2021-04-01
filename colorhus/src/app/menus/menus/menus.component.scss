@@ -1,0 +1,50 @@
+.toolbaroverride {
+  position: fixed;
+  margin-top: 0;
+}
+
+mat-toolbar {
+  z-index: 999;
+}
+
+.menu {
+  text-decoration: none;
+}
+
+button {
+  outline: none;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.toolbarFont {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: medium;
+  font-weight: bold;
+}
+.title {
+  white-space: initial;
+  line-height: 15px;
+}
+
+.translate {
+  background-size: cover;
+  cursor: pointer;
+  border: none;
+  width: 24px;
+  height: 24px;
+  margin-right: 20px;
+  margin-left: 0px;
+}
+
+.danish {
+  background: url(../../../assets/images/DK_SM.png) no-repeat center center
+    scroll;
+}
+
+.english {
+  background: url(../../../assets/images/USA_SM.png) no-repeat center center
+    scroll;
+}

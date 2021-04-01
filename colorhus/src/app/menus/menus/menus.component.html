@@ -1,0 +1,53 @@
+<mat-toolbar color="primary" class="toolbaroverride">
+  <button
+    mat-icon-button
+    class="example-icon"
+    [matMenuTriggerFor]="menu"
+    aria-label="Example icon-button with menu icon"
+  >
+    <mat-icon>menu</mat-icon>
+  </button>
+  <button
+    mat-icon-button
+    class="example-icon"
+    aria-label="Example icon-button with share icon"
+    [routerLink]="['/home']"
+  >
+    <mat-icon>home</mat-icon>
+  </button>
+  <mat-menu class="menu" #menu="matMenu">
+    <button mat-menu-item [routerLink]="['/bio']">
+      <mat-icon>account_box</mat-icon>
+      <span>Bio</span>
+    </button>
+    <button mat-menu-item [routerLink]="['/gallery']">
+      <mat-icon>collections</mat-icon>
+      <span>Gallery</span>
+    </button>
+    <button mat-menu-item [routerLink]="['/contact']">
+      <mat-icon>perm_phone_msg</mat-icon>
+      <span>Contact</span>
+    </button>
+  </mat-menu>
+  <span class="title toolbarFont">Color Hus Malermester</span>
+  <span class="example-spacer"></span>
+  <button
+    class="danish translate"
+    (click)="translateDanish()"
+    [@tada]="tada_DA"
+  ></button>
+  <button
+    class="english translate"
+    (click)="translateEnglish()"
+    [@tada]="tada_EN"
+  ></button>
+  <a
+    mat-icon-button
+    class="example-icon"
+    aria-label="Example icon-button with share icon"
+    [href]="emailstring"
+    target="_top"
+  >
+    <mat-icon>email</mat-icon>
+  </a>
+</mat-toolbar>
